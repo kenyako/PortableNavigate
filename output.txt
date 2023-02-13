@@ -1,0 +1,97 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "г. Кемерово дружбы 3А",
+          "results": "10",
+          "found": "1"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "exact",
+                "text": "Россия, Кемерово, улица Дружбы, 3А",
+                "kind": "house",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Кемерово, улица Дружбы, 3А",
+                  "postal_code": "650040",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Сибирский федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Кемеровская область"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "Кемеровский городской округ"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Кемерово"
+                    },
+                    {
+                      "kind": "street",
+                      "name": "улица Дружбы"
+                    },
+                    {
+                      "kind": "house",
+                      "name": "3А"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Кемерово, улица Дружбы, 3А",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Кемеровская область",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "Кемеровский городской округ",
+                        "Locality": {
+                          "LocalityName": "Кемерово",
+                          "Thoroughfare": {
+                            "ThoroughfareName": "улица Дружбы",
+                            "Premise": {
+                              "PremiseNumber": "3А",
+                              "PostalCode": {
+                                "PostalCodeNumber": "650040"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "улица Дружбы, 3А",
+            "description": "Кемерово, Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "86.090261 55.305902",
+                "upperCorner": "86.098471 55.310585"
+              }
+            },
+            "Point": {
+              "pos": "86.094366 55.308244"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
